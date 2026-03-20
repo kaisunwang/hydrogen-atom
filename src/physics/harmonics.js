@@ -50,9 +50,7 @@ function deriv_legendre(l, m) {
 }
 
 export function Y(l, m, theta, phi) {
-    // Y(l, m, theta, phi)
     // input: integers l and m, angles theta (polar, 0 to π) and phi (azimuthal, 0 to 2π)
-    // outupt: real number
     // Y_{l, m}(\theta, \phi)=\sqrt{\frac{2l+1}{4\pi}\frac{(l-m)!}{(l+m)!}} e^{im\phi}P_l^m(\cos \theta)
     const abs_m = Math.abs(m)
     const x = Math.cos(theta)

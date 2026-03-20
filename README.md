@@ -1,5 +1,7 @@
 # Hydrogen Orbital Visualizer
 
+![Visualizer Example](public/visualizer_example.png)
+
 ## Functionality
 
 This tool samples and visualizes hydrogen atom electron clouds for principal quantum numbers n = 1 through n = 5. Users can select quantum numbers (n, l, m) and observe the resulting orbital probability density via rejection sampling. In the visualizer, the tick marks are given in Bohr radii (a ≈ 5.29e-11).
